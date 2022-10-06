@@ -1,13 +1,13 @@
 # Site Settings
 locale: "en-US"
-title: "Simone Pasquini / My Personal Website - Simone Pasquini"
+title: "Simone Pasquini - Personal website"
 title_separator: "-"
 name: &name "Simone Pasquini"
 description: &description "personal description"
 url: https://simop07.github.io
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "simop07/simop07.github.io"
-teaser: "500x300.png"
+teaser: "template-photo.png"
 breadcrumbs: false # true, false (default)
 words_per_minute: 160
 future: true
