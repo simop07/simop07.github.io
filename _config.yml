@@ -1,6 +1,6 @@
 # Site Settings
 locale: "en-US"
-title: "Simone Pasquini - Personal website"
+title: "Simone Pasquini / Website"
 title_separator: "-"
 name: &name "Simone Pasquini"
 description: &description "Physics student at University of Bologna"
