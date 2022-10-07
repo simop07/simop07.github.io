@@ -1,6 +1,6 @@
 # Site Settings
 locale: "en-US"
-title: "Simone Pasquini - Personal AAAAAAAAAAAA website"
+title: "Simone Pasquini - Personal website"
 title_separator: "-"
 name: &name "Simone Pasquini"
 description: &description "Physics student at University of Bologna"
@@ -73,7 +73,7 @@ analytics:
 author:
   name: "Simone Pasquini"
   avatar: "profile.png"
-  bio: &description
+  bio: "Physics student at University of Bologna"
   employer:
   pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar: "http://yourfullgooglescholarurl.com"
