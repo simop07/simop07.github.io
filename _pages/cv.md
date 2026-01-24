@@ -1,64 +1,35 @@
 ---
-layout: archive
-title: "CV"
+layout: cv-layout
+title: "Curriculum Vitae"
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+# {{ site.data.cv.name }}
+**{{ site.data.cv.title }}**
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+{{ site.data.cv.summary }}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Contact
+- Email: [{{ site.data.cv.contacts.email }}](mailto:{{ site.data.cv.contacts.email }})
+- LinkedIn: [{{ site.data.cv.contacts.linkedin }}](https://www.linkedin.com/in/{{ site.data.cv.contacts.linkedin }})
+- GitHub: [{{ site.data.cv.contacts.github }}](https://github.com/{{ site.data.cv.contacts.github }})
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
+{% for edu in site.data.cv.education %}
+- **{{ edu.degree }}**, {{ edu.institution }} ({{ edu.period }}), {{ edu.location }}
+{% endfor %}
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Selected Projects
+{% for p in site.data.cv.projects %}
+- **[{{ p.title }}]({{ p.link }})** – {{ p.description }}
+{% endfor %}
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Languages
+{% for lang in site.data.cv.languages %}
+- {{ lang.name }}: {{ lang.level }}
+{% endfor %}
+
+## Skills
+{% for s in site.data.cv.skills %}
+- {{ s }}
+{% endfor %}
