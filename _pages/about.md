@@ -2,11 +2,10 @@
 permalink: /
 title: "Simone Pasquini"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 
-A curious, goal-oriented and persevering MSc degree student in physics, passionate about technology, data analysis and artificial intelligence. I enjoy extrapolating and interpreting physical results through computational methods and algorithm development.
+![Simone Pasquini](images/FotoSimone.jpeg)
 
-You can check more about me on my [LinkedIn page](https://www.linkedin.com/in/simone-pasquini7/). My computing projects are available at my [GitHub page](https://github.com/simop07/).
+Hi, welcome to my personal page! I am Simone, an MSc student in Physics with a passion for technology, data analysis, and artificial intelligence. I enjoy interpreting physical results through computational methods and developing algorithms to tackle complex problems.  
+
+You can check more about my professional background on my [LinkedIn page](https://www.linkedin.com/in/simone-pasquini7/).
