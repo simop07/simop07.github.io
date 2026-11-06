@@ -11,5 +11,6 @@ Hi, welcome to my personal website! I am Simone, a PhD researcher in Experimenta
 analysis and artificial intelligence. I enjoy interpreting physical results through computational methods and 
 developing algorithms to tackle complex problems.
 
-You can check more about my professional background either on my [LinkedIn 
-page](https://www.linkedin.com/in/simone-pasquini7/) or on my [GitHub profile](https://github.com/simop07).
+You can check more about my professional background either on my 
+[LinkedIn](https://www.linkedin.com/in/simone-pasquini7/) or on my 
+[Academic page](https://www.unibo.it/sitoweb/simone.pasquini8/). My major code development projects are instead available on my [GitHub profile](https://github.com/simop07).
